@@ -38,7 +38,7 @@ async function fetchData(urlApi) {
         content.innerHTML = view;
     } catch (error) {
         console.log(error);
-        //toastr.error('Ha ocurrido un error');
+        toastr.error('Ha ocurrido un error');
     }
 })();
 
